@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@300;400;500;600;700;800&family=Public+Sans:wght@300;400;800&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+    gap: 60px;
+    background: url(../img/bg-repeat.jpg) repeat-x;
+    background-size: contain;
+}
+
+.orientacao{
+    color: #fff;
+    width: 300px;
+}
+
+.orientacao .titulo{
+    font-size: 20px;
+    padding-bottom: 11px;
+}
+
+.formulario{
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.formulario .dados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formulario .dados .dado{
+    width: 100%;
+    border-radius: 5px;
+    padding: 9px 11px;
+    font-size: 15px;
+    font-weight: 700;
+    resize: none;
+}
+
+.formulario .explicacao{
+    padding-bottom: 11px;
+}
+
+.formulario .enviar{
+    border: none;
+    background-color: #3CCC87;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.preenchido{
+    border: 1px solid #00C22B;
+}
+
+.vazio{
+    border: 1px solid #f52e2e;
+}
+
+.aviso::after{
+    content: 'campo obrigatório';
+    color: #F52E2E;
+    font-size: 8px;
+    margin-bottom: -10px;
+}
