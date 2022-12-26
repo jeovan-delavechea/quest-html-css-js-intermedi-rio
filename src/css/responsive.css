@@ -1,0 +1,21 @@
+@media(max-width: 630px){
+    main{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .orientacao .titulo{
+        text-align: center;
+    }
+    .orientacao .texto{
+        text-align: center;   
+    }
+}
+
+@media(max-width: 360px){
+    .orientacao, .formulario{
+        width: 250px;
+    }
+    .orientacao .titulo{
+        font-size: 17px;
+    }
+}
